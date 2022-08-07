@@ -3,3 +3,6 @@ body {
   font-family: Noto Sans, Arial, sans-serif;
   padding-bottom: 1000px;
 }
+p {
+  margin: 0;
+}

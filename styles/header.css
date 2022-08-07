@@ -14,7 +14,7 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 57px;
+  height: 56px;
   border-bottom: 1px solid lightgrey;
   box-shadow: 0 1px 2px -2px rgba(0, 0, 0, 0.7);
   z-index: 100;
@@ -28,8 +28,12 @@
 .left-section .container {
   display: flex;
   align-items: center;
-}
 
+}
+.container .logo-container {
+  margin-top: 4px;
+  margin-left: 1px;
+}
   /* this is for all the logo inside all container*/
 .container img {
   height: 40px;

@@ -1,0 +1,103 @@
+.right-side-header {
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: fixed;
+  top: 58px;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+  width: 280px;
+  padding: 0px 5px 0 20px;
+  overflow-y: scroll;
+}
+.right-side-header::-webkit-scrollbar {
+  width: 10px;
+
+}
+.right-side-header::-webkit-scrollbar-track {
+  background: rgb(236, 236, 236);
+
+}
+ 
+.right-side-header::-webkit-scrollbar-thumb:hover {
+  background: rgb(159, 159, 159); 
+  border-radius: 5px;
+}
+
+/* Top */
+.sponsor-region {
+  display: flex;
+  height: 21px;
+  padding: 20px 0 16px;
+  border-bottom: 1px solid rgb(207, 206, 206);
+}
+.sponsored-txt {
+  display: flex;
+  color: black;
+  position: relative;
+  font-size: 16px;
+  font-weight: 500;
+  height: 100%;
+  align-items: center;
+}
+
+
+/* Below the sponsor region */
+.contacts-region {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  align-items: end;
+  height: 37px;
+  margin-bottom: 8px;
+}
+.contacts-txt {
+  font-weight: 500;
+}
+
+.contacts-features {
+  display: flex;
+  justify-content: space-between;
+}
+.contacts-features-icon {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.contacts-features-icon img {
+  display: flex;
+  height: 22px;
+  align-items: center;
+  
+}
+
+.online-friends {
+  display: flex;
+  flex-direction: column;
+}
+
+.friend-container {
+  display: flex;
+  align-items: center;
+  height: 28px;
+  padding: 8px 0;
+}
+
+.friend-profile-pic-container {
+  width: 35px;
+  height: 28px;
+}
+.friend-profile-pic {
+  height: 28px;
+  width: 28px;
+  border-radius: 14px;
+  object-fit: cover;
+}
+
+

@@ -1,11 +1,32 @@
-@media (min-width: 0) and (max-width: 1200px) {
+@media (min-width: 0) and (max-width: 1300px) {
   .search-bar {
     opacity: 0;
   }
+}
+@media (max-width: 1200px) {
+  .header {
+    z-index: 1000 !important;
+  }
   .home-page {
-    padding-left: 280px;
+    z-index: 500;
+    width: 572px !important;
+  }
+  .left-side-header,
+  .right-side-header {
+    opacity: 0;
+    width: 0;
+    display: none;
   }
 }
+@media (max-width: 700px) {
+  .middle-section {
+    opacity: 0;
+  }
+  .right-section {
+    margin-right: auto;
+  }
+}
+
 .header {
   background-color: white;
   display: flex;
@@ -76,7 +97,8 @@
   justify-content: center;
   align-items: center;
   flex: 1;
-  padding: 0 150px 0 220px;
+  margin: 0 auto;
+  padding: 0 20px 0 110px;
 }
 .middle-section .logo-container,
 .middle-section .logo-container1 {

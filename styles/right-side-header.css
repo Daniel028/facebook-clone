@@ -35,7 +35,7 @@
 }
 .sponsored-txt {
   display: flex;
-  color: black;
+  color: #65676B;
   position: relative;
   font-size: 16px;
   font-weight: 500;
@@ -54,25 +54,37 @@
   display: grid;
   grid-template-columns: 60% 40%;
   align-items: end;
-  height: 37px;
-  margin-bottom: 8px;
+  height: 42px;
+  margin-bottom: 3px;
 }
 .contacts-txt {
   font-weight: 500;
+  padding-bottom: 5px;
+  color: #65676B;
 }
 
 .contacts-features {
   display: flex;
   justify-content: space-between;
+  
 }
 .contacts-features-icon {
   display: flex;
   align-items: flex-end;
   justify-content: center;
+  padding: 5px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.contacts-features-icon:hover {
+  background-color: rgb(225, 225, 225);
 }
 .contacts-features-icon img {
   display: flex;
   height: 22px;
+  width: 22px;
+  object-fit: cover;
   align-items: center;
   
 }
